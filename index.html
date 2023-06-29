@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css" />
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -15,7 +16,27 @@
   </style>
 </head>
 <body>
-
+    <div style="margin:50px;">
+        <img src="images/logo.svg" />
+        <div class="dropdown" style="position:relative;bottom:10px;left:40px;">
+            <button class="dropBtn">Features  <img src="images/icon-arrow-down.svg" /></button>
+            <div class="dropdownContent">
+                <a href="#"><img src="images/icon-todo.svg" />   Todo List</a>
+                <a href="#"><img src="images/icon-calendar.svg" />   Calendar</a>
+                <a href="#"><img src="images/icon-reminders.svg" />   Reminders</a>
+                <a href="#"><img src="images/icon-planning.svg" />   Planning</a>
+            </div>
+        </div>
+        <div class="dropdown" style="position:relative;bottom:10px;left:20px;">
+            <button class="dropBtn">Company  <img src="images/icon-arrow-down.svg" /></button>
+            <div class="dropdownContent" style="min-width:130px; left:10px;">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+            </div>
+        </div>
+        <button>Carrers</button>
+    </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Tudor000002</a>.
