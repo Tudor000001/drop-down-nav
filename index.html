@@ -11,14 +11,14 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution {position:relative; font-size: 11px; text-align: center; bottom:400px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
     <div style="margin:50px;">
-        <img src="images/logo.svg" />
-        <div class="dropdown" style="position:relative;bottom:10px;left:40px;">
+        <img style="position:relative; left:20px;" src="images/logo.svg" />
+        <div class="dropdown" style="position:relative;bottom:10px;left:20px;">
             <button class="dropBtn">Features  <img src="images/icon-arrow-down.svg" /></button>
             <div class="dropdownContent">
                 <a href="#"><img src="images/icon-todo.svg" />   Todo List</a>
@@ -27,7 +27,7 @@
                 <a href="#"><img src="images/icon-planning.svg" />   Planning</a>
             </div>
         </div>
-        <div class="dropdown" style="position:relative;bottom:10px;left:20px;">
+        <div class="dropdown" style="position:relative;bottom:10px;left:10px;">
             <button class="dropBtn">Company  <img src="images/icon-arrow-down.svg" /></button>
             <div class="dropdownContent" style="min-width:130px; left:10px;">
                 <a href="#">History</a>
@@ -35,8 +35,23 @@
                 <a href="#">Blog</a>
             </div>
         </div>
-        <button>Carrers</button>
+        <button class="butoane" style="bottom:10px;">Carrers</button>
+        <button class="butoane" style="bottom:10px;">About</button>
+        <button class="login" style="left:450px;">Login</button>
+        <button class="butonReg" style="left:470px;">Register</button>
     </div>
+    <div style="margin:50px;">
+        <p class="textMare">Make<br /> remote work</p>
+        <p class="textMic">Get your team in sync, no matter your location.<br />Streamline processes, create team rituals, and<br />watch productivity roar.</p>
+        <button class="learnMore">Learn more</button>
+    </div>
+    <div style="margin:50px;">
+        <img style="position:relative; top:50px; left:150px;" src="images/client-databiz.svg"/>
+        <img style="position:relative; top:50px; left:200px;" src="images/client-audiophile.svg"/>
+        <img style="position:relative; top:50px; left:250px;" src="images/client-maker.svg"/>
+        <img style="position:relative; top:50px; left:300px;" src="images/client-meet.svg"/>
+    </div>
+    <img style="position:relative; left:800px; bottom:500px; height:500px;" src="images/image-hero-desktop.png" />
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Tudor000002</a>.

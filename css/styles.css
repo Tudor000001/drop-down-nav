@@ -52,3 +52,92 @@
 .dropdown:hover .dropdown {
     background-color: #3e8e41;
 }
+
+.butoane {
+    position:relative;
+    background-color: transparent;
+    color: darkgray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: Roboto;
+}
+
+.butoane:hover{
+    color:gray;
+    border-color:black;
+}
+
+.butonReg {
+    position: relative;
+    background-color: transparent;
+    color: darkgray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 50px;
+    font-family: Roboto;
+    bottom:10px;
+}
+
+.butonReg:hover {
+    color: black;
+    border-color: black;
+}
+
+.login {
+    position:relative;
+    color: darkgray;
+    border: none;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 16px;
+    bottom:9px;
+}
+
+.login:hover{
+    color: gray;
+}
+
+.textMare{
+    position:relative;
+    left:150px;
+    font-family:Roboto;
+    font-size:100px;
+    font-weight:700;
+    top:50px;
+}
+
+.textMic {
+    position: relative;
+    left: 150px;
+    font-family: Roboto;
+    font-size: 20px;
+    word-spacing:5px;
+    top: 10px;
+    color:gray;
+    line-height:35px;
+}
+
+.learnMore{
+    position:relative;
+    left:150px;
+    top:30px;
+    background-color:black;
+    border:2px solid black;
+    color:white;
+    border-radius:10px;
+    height:50px;
+    width:150px;
+    font-family:Roboto;
+    font-size:15px;
+}
+
+.learnMore:hover{
+    background-color:white;
+    color:black;
+    font-weight:600;
+}
